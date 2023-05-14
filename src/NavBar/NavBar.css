@@ -1,0 +1,46 @@
+.navbar {
+  margin-top: 22px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100% !important;
+}
+
+.list {
+  font-size: 26px;
+  gap: 26px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+}
+.link::after {
+  content: "";
+  height: 2.5px;
+  width: 0%;
+  display: block;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.link:hover::after {
+  content: "";
+  width: 75%;
+  height: 2.5px;
+  background-color: white;
+}
+.active {
+  color: green;
+}
+
+.active:hover {
+  color: green;
+}

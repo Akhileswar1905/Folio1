@@ -1,0 +1,17 @@
+.projects {
+  display: flex;
+}
+
+.imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.project {
+  width: 380px;
+  border: 5px solid white;
+  margin: 10px 50px;
+}

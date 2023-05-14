@@ -1,0 +1,59 @@
+.resume {
+  display: flex;
+  height: 63vh;
+}
+
+.heading {
+  font-size: 77.9px;
+  text-align: center;
+}
+
+.heading > span {
+  border-bottom: 4px solid #fff;
+}
+
+.resume-section1,
+.resume-section2 {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-section1 > .img > img {
+  float: left;
+  width: 100px;
+}
+.resume-section2 > .img > img {
+  float: right;
+  width: 100px;
+}
+
+.info {
+  margin: 47px;
+}
+
+.info > p {
+  font-size: 35.4px;
+}
+
+.gold {
+  margin-top: -15px;
+  color: #ccc147;
+}
+
+.exp-info > .info {
+  text-align: end;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px 0px;
+  background-color: #fff;
+  color: #000;
+}
