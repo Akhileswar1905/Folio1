@@ -19,12 +19,12 @@
 /* Media Queries */
 @media screen and (max-width : 768px){
   .project{
-    width: 280px;
+    width: 35vw;
   }
 }
 
-@media screen and (max-width : 350px){
+@media screen and (max-width : 450px){
   .project{
-    width:180px;
+    width:50vw;
   }
 }
