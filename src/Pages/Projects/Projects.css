@@ -15,3 +15,16 @@
   border: 5px solid white;
   margin: 10px 50px;
 }
+
+/* Media Queries */
+@media screen and (max-width : 768px){
+  .project{
+    width: 280px;
+  }
+}
+
+@media screen and (max-width : 350px){
+  .project{
+    width:200px;
+  }
+}
