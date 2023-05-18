@@ -17,12 +17,12 @@
 }
 .h2 {
   text-align: left;
-  font-size: 76.9px;
+  font-size: 60.9px;
 }
 
 .h1 {
   color: yellow;
-  font-size: 96px;
+  font-size: 90px;
 }
 
 .h3 {
@@ -47,7 +47,7 @@
 }
 
 .man {
-  width: 58%;
+  width: 65%;
 }
 
 .wrapper {
@@ -85,7 +85,7 @@
   content: "";
   position: absolute;
   left: 0;
-  height: 100%;
+  height: 110%;
   width: 100%;
   background-color: #212121;
   margin-left: 5px;
@@ -96,5 +96,98 @@
 @keyframes typing {
   100% {
     left: 100%;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .man {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    display: block;
+  }
+
+  .home-section1,
+  .home-section2 {
+    width: 100%;
+  }
+
+  .man {
+    width: 50%;
+  }
+
+  .home-section2 {
+    display: flex;
+    align-items: center;
+    margin-top: -200px;
+    justify-content: center;
+  }
+
+  .h1 {
+    font-size: 4em;
+  }
+
+  .h2 {
+    font-size: 3em;
+  }
+
+  .h3 {
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .man {
+    display: none;
+  }
+  .h1 {
+    font-size: 3em;
+  }
+  .h3 {
+    font-size: 1.5em;
+  }
+  .wrapper > .dynamic-txt {
+    margin-left: -25px;
+    height: 38px;
+    line-height: 38px;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  @keyframes slides {
+    100% {
+      top: -114px;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .man {
+    display: none;
+  }
+  .h1 {
+    font-size: 2.5em;
+  }
+  .h2 {
+    font-size: 1.85em;
+  }
+  .h3 {
+    font-size: 1.5em;
+  }
+  .wrapper > .dynamic-txt {
+    margin-left: -25px;
+    height: 38px;
+    line-height: 38px;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  @keyframes slides {
+    100% {
+      top: -114px;
+    }
   }
 }

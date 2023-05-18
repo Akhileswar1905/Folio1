@@ -22,11 +22,11 @@
 
 .resume-section1 > .img > img {
   float: left;
-  width: 100px;
+  width: 80px;
 }
 .resume-section2 > .img > img {
   float: right;
-  width: 100px;
+  width: 80px;
 }
 
 .info {
@@ -34,7 +34,7 @@
 }
 
 .info > p {
-  font-size: 35.4px;
+  font-size: 28.4px;
 }
 
 .gold {
@@ -56,4 +56,47 @@
   margin: 10px 0px;
   background-color: #fff;
   color: #000;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .info {
+    margin: 30px;
+  }
+
+  .info > p {
+    font-size: 24.4px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .resume {
+    display: block;
+  }
+
+  .resume-section1,
+  .resume-section2 {
+    width: 100%;
+  }
+
+  .down {
+    display: none;
+  }
+
+  .load {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .info > p {
+    font-size: 1.1em;
+  }
+  .resume-section1 > .img > img {
+    width: 60px;
+  }
+  .resume-section2 > .img > img {
+    width: 60px;
+  }
 }

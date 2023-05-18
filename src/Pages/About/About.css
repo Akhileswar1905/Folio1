@@ -56,3 +56,45 @@
   border: 1px solid white;
   background-color: transparent;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1045px) {
+  .about-info > p {
+    font-size: 1.5em;
+  }
+
+  .about-box > h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .about-info > p {
+    font-size: 1.35em;
+  }
+
+  .about-box > h1 {
+    font-size: 2.35em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about-section1 {
+    display: none;
+  }
+
+  .about-section2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-info > p {
+    font-size: 1.15em;
+  }
+
+  .about-box > h1 {
+    font-size: 2em;
+  }
+}

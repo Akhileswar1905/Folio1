@@ -40,9 +40,14 @@ const Resume = () => {
             </div>
           </div>
         </div>
+        <div className="load" style={{ display: "none" }}>
+          <NavLink className={" btn"} to="/">
+            Download My Resume
+          </NavLink>
+        </div>
       </div>
       <div className="down">
-        <NavLink className={" down btn"} to="/">
+        <NavLink className={" btn"} to="/">
           Download My Resume
         </NavLink>
       </div>
