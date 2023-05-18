@@ -11,7 +11,6 @@
 }
 
 .list {
-  font-size: 21px;
   gap: 26px;
 }
 
@@ -44,3 +43,4 @@
 .active:hover {
   color: green;
 }
+
