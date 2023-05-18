@@ -44,3 +44,12 @@
   color: green;
 }
 
+/* Media Query */
+
+@media screen and (max-width:990px){
+  .list {
+    margin-left: 23px;
+    gap:12px;
+  }
+  
+}
