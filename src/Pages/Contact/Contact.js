@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { FaInstagram, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import phone from "../../images/phone.png";
 import msg from "../../images/msg.png";
 import share from "../../images/share.png";
@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <div className="contact-info">
               <div className="gold">Email</div>
-              <div>michaelxyz@gmail.com</div>
+              <div>ch.benerjeereddy@gmail.com</div>
             </div>
           </div>
           <div className="contact-box">
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div className="contact-info">
               <div className="gold">Phone Number</div>
-              <div>123 456 7890</div>
+              <div>+91 8019775823 </div>
             </div>
           </div>
           <div className="contact-box">
@@ -36,9 +36,12 @@ const Contact = () => {
             <div className="contact-info">
               <div className="gold">Social Media</div>
               <div>
-                <FaLinkedin className="icon" />
-                <FaTwitterSquare className="icon" />
-                <FaInstagram className="icon" />
+                <a href="https://www.linkedin.com/in/benerjee-reddy-46643125b/">
+                  <FaLinkedin className="icon" />
+                </a>
+                <a href="https://github.com/Bennu17">
+                  <FaGithub className="icon" />
+                </a>
               </div>
             </div>
           </div>

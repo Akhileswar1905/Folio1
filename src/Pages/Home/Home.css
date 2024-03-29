@@ -1,14 +1,15 @@
 .home {
   display: flex;
-  /* align-items: center;
-  justify-content: space-around; */
+  align-items: center;
+  justify-content: space-around;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
+  height: 100vh;
 }
 
 .home-section1 {
   width: 60%;
-  height: 83vh;
+  /* height: 83; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,8 +43,8 @@
 .home-section2 {
   width: 40%;
   display: flex;
-  align-items: baseline;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .man {

@@ -1,5 +1,5 @@
 import "./About.css";
-import man from "../../images/Experiment.jpg";
+import man from "../../images/client-bg.jpg";
 import { NavLink } from "react-router-dom";
 
 const About = () => {
@@ -15,13 +15,13 @@ const About = () => {
           </h1>
           <div className="about-info">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate ex ipsam veniam odit in voluptatibus aliquid fugit sit.
+              Dynamic Full Stack Developer with proficiency in front-end and
+              back-end technologies. Strong team player with intermediate-level
+              expertise in Machine Learning, Networking, and Data Structures &
+              Algorithms coding. Committed to continuous learning and
+              contributing to innovative solutions
             </p>
-            <p>
-              Debitis enim vel cumque beatae mollitia. In quaerat dolorem odio
-              recusandae inventore?
-            </p>
+
             <NavLink className={"btn"} to="/contact">
               Contact Me
             </NavLink>
